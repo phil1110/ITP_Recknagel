@@ -1,8 +1,10 @@
-namespace ITP_Recknagel.API
+using System;
+
+namespace ITP_Recknagel.API.Models
 {
 	public class WeatherForecast
 	{
-		public DateOnly Date { get; set; }
+		public DateTime Date { get; set; }
 
 		public int TemperatureC { get; set; }
 

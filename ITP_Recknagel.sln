@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.API", "ITP_Recknagel.API\ITP_Recknagel.API.csproj", "{D05152DB-430D-4048-B297-CD54A0958E27}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.API.Lib", "ITP_Recknagel.API.Lib\ITP_Recknagel.API.Lib.csproj", "{7FB5B7F5-91FD-4528-95CE-306370B7387D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.App.Lib", "ITP_Recknagel.App.Lib\ITP_Recknagel.App.Lib.csproj", "{11B6B237-A169-4F9A-9776-11AE40935A1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.App", "ITP_Recknagel.App\ITP_Recknagel.App.csproj", "{F22B45B9-9491-4484-8A62-57237980D47E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.App.MauiLib", "ITP_Recknagel.App.MauiLib\ITP_Recknagel.App.MauiLib.csproj", "{3913C45A-792B-449F-8738-D5A6FD7A3A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.API.Lib", "ITP_Recknagel.API.Lib\ITP_Recknagel.API.Lib.csproj", "{9C77F9B7-6BED-42D5-823B-B0779D96CA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITP_Recknagel.API", "ITP_Recknagel.API\ITP_Recknagel.API.csproj", "{CAA5086C-ACF5-42AF-AF4B-508C4FA0E105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D05152DB-430D-4048-B297-CD54A0958E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D05152DB-430D-4048-B297-CD54A0958E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D05152DB-430D-4048-B297-CD54A0958E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D05152DB-430D-4048-B297-CD54A0958E27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FB5B7F5-91FD-4528-95CE-306370B7387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FB5B7F5-91FD-4528-95CE-306370B7387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FB5B7F5-91FD-4528-95CE-306370B7387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FB5B7F5-91FD-4528-95CE-306370B7387D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11B6B237-A169-4F9A-9776-11AE40935A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11B6B237-A169-4F9A-9776-11AE40935A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B6B237-A169-4F9A-9776-11AE40935A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +33,14 @@ Global
 		{3913C45A-792B-449F-8738-D5A6FD7A3A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3913C45A-792B-449F-8738-D5A6FD7A3A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3913C45A-792B-449F-8738-D5A6FD7A3A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C77F9B7-6BED-42D5-823B-B0779D96CA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C77F9B7-6BED-42D5-823B-B0779D96CA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C77F9B7-6BED-42D5-823B-B0779D96CA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C77F9B7-6BED-42D5-823B-B0779D96CA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA5086C-ACF5-42AF-AF4B-508C4FA0E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA5086C-ACF5-42AF-AF4B-508C4FA0E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA5086C-ACF5-42AF-AF4B-508C4FA0E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA5086C-ACF5-42AF-AF4B-508C4FA0E105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
